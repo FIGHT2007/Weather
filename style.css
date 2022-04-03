@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    margin: 0 auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(77, 154, 255);
+    min-height: 100vh;
+    align-items: center;
+    padding: 100px;
+    box-shadow: 50px 100px 100px 0 rgba(0, 159, 233, 0.5);
+}
+body{
+    display: block;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Cousine', monospace;
+    font-family: 'Lato', sans-serif;
+}
+.title{
+    font-size: 60px;
+    margin-bottom: 40px;
+    color: aliceblue;
+}
+#inputCity{
+    outline: none;
+    width: 30%;
+    height: 45px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px ridge rgb(255, 196, 0);
+    font-size: 35px;
+    font-family: inherit;
+    color: rgb(255, 196, 0);
+    margin-bottom: 50px;
+}
+#iconWrapper{
+    width: 250px;
+    height: 250px;
+}
+#iconWrapper img{
+    width: 100%;
+}
+#descLable{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+#tempLable, #feelsLikeLable, #windLable{
+    margin-bottom: 20px;
+    font-size: 40px;
+    border-bottom: 2px solid black;
+    color: white;
+    width: 30%;
+    text-align: center;
+}
