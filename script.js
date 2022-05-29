@@ -12,7 +12,7 @@ inputCity.value = ''
 inputCity.addEventListener('keydown', function(event){
 if(event.key == 'Enter'){
     if(inputCity.value == ''){
-        alert('Пожалуйста введите название города!')
+        alert('Пожалуйста, введите название города!')
     }
     else{
 getData()
